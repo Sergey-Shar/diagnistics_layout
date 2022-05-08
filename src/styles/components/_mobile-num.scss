@@ -1,0 +1,27 @@
+.mobile-num {
+  position: relative;
+  height: 44rem;
+  &__icon {
+    position: absolute;
+    left: 20%;
+    color: rgb(148, 148, 148);
+  }
+  &__text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 600;
+    font-size: 12rem;
+    line-height: 12rem;
+    letter-spacing: -0.5rem;
+    color: rgb(148, 148, 148);
+  }
+  &__number {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 20rem;
+    color: #fff;
+  }
+}
