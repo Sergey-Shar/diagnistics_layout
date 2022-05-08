@@ -352,17 +352,17 @@ p {
   grid-area: footer;
 }
 
-.discription {
+.description {
   height: 209rem;
   width: 580rem;
 }
 
-.discription__title-wpap {
+.description__title-wpap {
   width: 580rem;
   margin-bottom: 38rem;
 }
 
-.discription__title {
+.description__title {
   color: #fff;
   font-weight: 800;
   font-size: 42rem;
@@ -370,11 +370,11 @@ p {
   letter-spacing: -0.5rem;
 }
 
-.discription__sub-title-wrap {
+.description__sub-title-wrap {
   width: 363rem;
 }
 
-.discription__sub-title {
+.description__sub-title {
   color: #949494;
   font-weight: 600;
   font-size: 20rem;
