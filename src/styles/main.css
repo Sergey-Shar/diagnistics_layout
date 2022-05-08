@@ -338,8 +338,11 @@ p {
 }
 
 .hero__footer {
+  position: relative;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -443,5 +446,24 @@ p {
   line-height: 28rem;
   letter-spacing: -0.5rem;
   color: #ffffff;
+}
+
+.vidio {
+  position: absolute;
+  top: -50%;
+  right: 0;
+}
+
+.vidio__man {
+  position: absolute;
+  border-radius: 50%;
+  left: 18%;
+  top: 18%;
+}
+
+.vidio__polygon {
+  position: absolute;
+  left: 48%;
+  top: 48%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.vidio {
+    position: absolute;
+    top:-50%;
+    right: 0;
+   
+    &__man {
+        position: absolute;
+        border-radius: 50%;
+        left: 18%;
+        top:18%;
+    }
+    &__polygon {
+        position: absolute;
+        left: 48%;
+        top:48%;
+    }
+}
