@@ -20,8 +20,10 @@
     grid-area: rightBlock;
   }
   &__footer {
+    position: relative;
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
     grid-area: footer;
   }
 }
