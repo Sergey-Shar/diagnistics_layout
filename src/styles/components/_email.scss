@@ -1,6 +1,7 @@
 .email {
   position: relative;
   height: 31rem;
+
   &__text {
     position: absolute;
     left: 0;
@@ -25,4 +26,7 @@
     font-size: 14rem;
     line-height: 12rem;
   }
+  &__address-black {
+  }
 }
+
