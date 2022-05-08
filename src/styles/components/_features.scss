@@ -1,0 +1,19 @@
+.features {
+  display: flex;
+  width: 1200rem;
+  gap: 130rem;
+
+  &__block {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    width: 300rem;
+  }
+  &__discription {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 28rem;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
+}

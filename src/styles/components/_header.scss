@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 78, 134, 0.8) 0%,
+      rgba(10, 65, 104, 0.8) 100%
+    ),
+    url(../common/images/bg-header.jpg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
+}
