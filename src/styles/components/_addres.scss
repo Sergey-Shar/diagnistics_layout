@@ -1,14 +1,6 @@
 .address {
-
-    // .address__icon
-
-    &__icon {
-    }
-
-    // .address__text
-
-    &__text {
-    }
-}
-.ymaps-geolink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 31rem;
 }
