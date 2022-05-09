@@ -1,0 +1,87 @@
+.services {
+  position: relative;
+  height: 753rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 78, 134, 0.8) 0%,
+      rgba(10, 65, 104, 0.8) 100%
+    ),
+    url(../common/images/bg-header.jpg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
+  
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 198rem;
+  }
+  &__header-title {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 16rem;
+    letter-spacing: 20rem;
+    text-transform: uppercase;
+    color: #fee040;
+    margin-bottom: 20rem;
+  }
+
+  &__header-sub-title {
+    font-weight: 800;
+    font-size: 32rem;
+    line-height: 131%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
+
+  &__swiper{
+    width: 100%;
+    height:470rem;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400rem;
+    height: 394rem;
+  }
+
+  &__card-img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__card-title {
+    flex: 1;
+    margin-top: 20rem;
+    font-weight: 800;
+    font-size: 24rem;
+    line-height: 117%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
+
+  &__card-sub-title {
+    flex: 2;
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 162%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+    opacity: 0.7;
+  }
+
+  &__card-link {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 16rem;
+    letter-spacing: 7rem;
+    color: #fee040;
+  }
+
+  &__progress-scroll {
+    background-color: #fee040;
+  }
+}

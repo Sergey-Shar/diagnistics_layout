@@ -1,0 +1,29 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 57% 43%);
+  grid-template-areas:
+    "leftBlock rightBlock "
+    "leftBlock rightBlock "
+    "footer footer";
+  height: 688rem;
+
+  &__left-block {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: leftBlock;
+  }
+  &__right-block {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: rightBlock;
+  }
+  &__footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    grid-area: footer;
+  }
+}

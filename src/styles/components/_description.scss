@@ -1,0 +1,24 @@
+.description {
+  height: 209rem;
+  width: 580rem;
+  &__title-wpap {
+    width: 580rem;
+    margin-bottom: 38rem;
+  }
+  &__title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 42rem;
+    line-height: 51rem;
+    letter-spacing: -0.5rem;
+  }
+  &__sub-title-wrap {
+    width: 363rem;
+  }
+  &__sub-title {
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+    font-size: 20rem;
+    line-height: 34rem;
+  }
+}

@@ -1,0 +1,49 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40rem;
+  cursor: pointer;
+  &.active {
+    position: relative;
+  }
+
+  &__line-top {
+    width: 40rem;
+    height: 2rem;
+    background-color: #fff;
+    &.active {
+      position: absolute;
+      top: 53%;
+      transform: rotate(45deg);
+    }
+  }
+  &__wrapper-line-center {
+    display: flex;
+    justify-content: space-between;
+    &.active {
+      display: none;
+    }
+  }
+  &__line-center--left {
+    width: 16rem;
+    height: 2rem;
+    background-color: #fee040;
+  }
+  &__line-center--right {
+    width: 16rem;
+    height: 2rem;
+    background-color: #fee040;
+  }
+  &__line-bottom {
+    width: 40rem;
+    height: 2rem;
+    background-color: #fff;
+
+    &.active {
+      position: absolute;
+      bottom: 43%;
+      transform: rotate(-45deg);
+    }
+  }
+}

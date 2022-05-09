@@ -1,0 +1,16 @@
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100%;
+
+  &__left-col {
+    display: grid;
+  }
+  &__right-col {
+  }
+  &__right-col_gray {
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    align-items: center;
+  }
+}

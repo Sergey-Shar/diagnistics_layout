@@ -1,0 +1,45 @@
+.step-second {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360rem;
+    gap: 28rem;
+  }
+
+  &__sub-title {
+    text-align: center;
+    width: 770rem;
+  }
+
+  &__swiper {
+    width: 100%;
+    height: 460rem;
+    margin-bottom: 50rem;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40rem;
+    width: 340rem;
+    height: 417rem;
+    background: linear-gradient(to bottom, #fff 20%, rgb(245, 245, 245) 20%);
+  }
+
+  &__card-image {
+    height: 300rem;
+  }
+
+  &__card-description {
+    font-weight: 700;
+    font-size: 16rem;
+    line-height: 138%;
+    text-align: center;
+    letter-spacing: -0.5rem;
+    color: #151515;
+    opacity: 0.7;
+  }
+}

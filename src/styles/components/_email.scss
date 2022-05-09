@@ -1,0 +1,32 @@
+.email {
+  position: relative;
+  height: 31rem;
+
+  &__text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+    font-size: 12rem;
+    line-height: 12rem;
+    letter-spacing: -0.5rem;
+  }
+  &__icon {
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+  }
+  &__address {
+    position: absolute;
+    right: -6rem;
+    bottom: 0;
+    color: rgb(254, 224, 63);
+    font-weight: 600;
+    font-size: 14rem;
+    line-height: 12rem;
+  }
+  &__address-black {
+  }
+}
+
