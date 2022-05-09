@@ -6,7 +6,7 @@
 с использованием методологии [БЭМ](https://ru.bem.info/methodology/)
 
 
-[Watch Demo](https://tabata-timer-app-932a8.web.app/) 
+[Watch Demo](https://sergey-shar.github.io/diagnistics_layout/) 
 
 Для реализации горизонтального скролла я воспользовался библиотекой [Swiper.js](https://swiperjs.com/demos#pagination-custom)
 
