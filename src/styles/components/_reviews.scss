@@ -1,35 +1,82 @@
 .reviews {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360rem;
+    gap: 28rem;
+    height: 352rem;
+  }
 
-    // .reviews__header
+  &__header-title {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 16rem;
+    letter-spacing: 20rem;
+    text-transform: uppercase;
+    color: #2f80ed;
+  }
 
-    &__header {
-    }
+  &__header-sub-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 131%;
+    letter-spacing: -0.5px;
+    color: #151515;
+  }
+  &__header-description {
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #707070;
+    width: 900rem;
+  }
 
-    // .reviews__slider-card
+  &__main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    gap: 60rem;
+    padding: 0 15rem 0 15rem;
+    margin-bottom: 40rem;
+  }
 
-    &__slider-card {
-    }
+  &__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 509rem;
+  }
 
-    // .reviews__slider-card-icon
+  &__card-icon {
+    position: absolute;
+    left: -50rem;
+    top: -50rem;
+  }
 
-    &__slider-card-icon {
-    }
+  &__card-img {
+    width: 300px;
+  }
 
-    // .reviews__slider-card-img
+  &__card-customer {
+    font-weight: 700;
+    font-size: 16rem;
+    line-height: 162%;
+    letter-spacing: -0.5rem;
+    color: #151515;
+    opacity: 0.7;
+    border-radius: 2rem;
+  }
 
-    &__slider-card-img {
-    }
-
-    // .reviews__slider-card-customer
-
-    &__slider-card-customer {
-    }
-
-    // .reviews__footer
-
-    &__footer {
-    }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 199rem;
+  }
 }
-
-
-

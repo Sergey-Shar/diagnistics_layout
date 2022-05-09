@@ -41,9 +41,6 @@ const swiperSecondStep = new Swiper(".step-second__swiper", {
   spaceBetween: 30,
   keyboard: {
     enabled: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + "</span>";
-    },
   },
   pagination: {
     el: ".swiper-pagination",
@@ -54,4 +51,15 @@ const swiperSecondStep = new Swiper(".step-second__swiper", {
   },
 });
 
-//swiperSecondStep.pagination.renderBullet('step-second__pagination')
+const swiperTeam = new Swiper('.team__swiper',{
+  slidesPerView: 5,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  slideToClikedSlide: true,
+  grabCursor: true,
+  touchRatio: 5,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+})

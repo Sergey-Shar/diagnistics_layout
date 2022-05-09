@@ -5,6 +5,7 @@
 
   &__man {
     position: absolute;
+    cursor: pointer;
     border-radius: 50%;
     left: 18%;
     top: 18%;
@@ -13,5 +14,6 @@
     position: absolute;
     left: 48%;
     top: 48%;
+    cursor: pointer;
   }
 }
