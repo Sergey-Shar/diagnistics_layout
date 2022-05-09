@@ -1,52 +1,87 @@
 .services {
+  position: relative;
+  height: 753rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 78, 134, 0.8) 0%,
+      rgba(10, 65, 104, 0.8) 100%
+    ),
+    url(../common/images/bg-header.jpg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
+  
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 198rem;
+  }
+  &__header-title {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 16rem;
+    letter-spacing: 20rem;
+    text-transform: uppercase;
+    color: #fee040;
+    margin-bottom: 20rem;
+  }
 
-    // .services__header
+  &__header-sub-title {
+    font-weight: 800;
+    font-size: 32rem;
+    line-height: 131%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
 
-    &__header {
-    }
+  &__swiper{
+    width: 100%;
+    height:470rem;
+  }
 
-    // .services__header-title
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400rem;
+    height: 394rem;
+  }
 
-    &__header-title {
-    }
+  &__card-img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
 
-    // .services__header-sub-title
+  &__card-title {
+    flex: 1;
+    margin-top: 20rem;
+    font-weight: 800;
+    font-size: 24rem;
+    line-height: 117%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
 
-    &__header-sub-title {
-    }
+  &__card-sub-title {
+    flex: 2;
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 162%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+    opacity: 0.7;
+  }
 
-    // .services__card
+  &__card-link {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 16rem;
+    letter-spacing: 7rem;
+    color: #fee040;
+  }
 
-    &__card {
-    }
-
-    // .services__card-img
-
-    &__card-img {
-    }
-
-    // .services__card-title
-
-    &__card-title {
-    }
-
-    // .services__card-sub-title
-
-    &__card-sub-title {
-    }
-
-    // .services__card-link
-
-    &__card-link {
-    }
-
-    // .services__card-link-icon
-
-    &__card-link-icon {
-    }
-
-    // .services__progress-bar
-
-    &__progress-bar {
-    }
+  &__progress-scroll {
+    background-color: #fee040;
+  }
 }
