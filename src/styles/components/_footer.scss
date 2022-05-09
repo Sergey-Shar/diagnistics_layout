@@ -1,19 +1,36 @@
 .footer {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 121rem;
+    width: 100%;
+  }
 
-    // .footer__brand-block
+  &__brand-block {
+    display: flex;
+    align-items: center;
+    width: 270rem;
+  }
+  &__brand-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    color: #707070;
+  }
 
-    &__brand-block {
-    }
+  &__brand-text_link {
+    text-decoration: underline;
+  }
 
-    // .footer__brand-text
-
-    &__brand-text {
-    }
-
-    // .footer__contacts-block
-
-    &__contacts-block {
-    }
+  &__contacts-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-
+.address-text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}

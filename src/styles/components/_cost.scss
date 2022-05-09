@@ -1,23 +1,38 @@
 .cost {
+  height: 446rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 78, 134, 0.8) 0%,
+      rgba(10, 65, 104, 0.8) 100%
+    ),
+    url(../common/images/bg-header.jpg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
 
-    // .cost__content
-
-    &__content {
-    }
-
-    // .cost__title
-
-    &__title {
-    }
-
-    // .cost__title-yelow
-
-    &__title-yelow {
-    }
-
-    // .cost__sub-title
-
-    &__sub-title {
-    }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 446rem;
+    gap: 28rem;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 32rem;
+    line-height: 131%;
+    text-align: center;
+    letter-spacing: -0.5rem;
+    color: #fff;
+  }
+  &__title-yelow {
+    color: #fee040;
+  }
+  &__sub-title {
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
 }
-
