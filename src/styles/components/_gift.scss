@@ -1,20 +1,44 @@
 .gift {
+  display: flex;
+  align-items: center;
+  height: 408rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 78, 134, 0.8) 0%,
+      rgba(10, 65, 104, 0.8) 100%
+    ),
+    url(../common/images/bg-header.jpg) 0 0 / cover no-repeat;
+  background-attachment: fixed;
 
-    // .gift__title
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    height: 168rem;
+    width: 100%;
+  }
+  &__title {
+    width: 350rem;
+    font-weight: 800;
+    font-size: 32rem;
+    line-height: 131%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
 
-    &__title {
-
-        // .gift__title_yelow
-
-        &_yelow {
-        }
+    &_yelow {
+      color: rgb(254, 224, 63);
     }
+  }
 
-    // .gift__sub-title
+  &__sub-title-wrapper {
+    width: 460rem;
+  }
 
-    &__sub-title {
-    }
+  &__sub-title {
+    margin-bottom: 20rem;
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 156%;
+    letter-spacing: -0.5rem;
+    color: #ffffff;
+  }
 }
-
-
-

@@ -1,15 +1,16 @@
-
 .two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100%;
 
-    // .two-columns__left-col
-
-    &__left-col {
-    }
-}
-.two-colomns {
-
-    // .two-colomns__right-col
-
-    &__right-col {
-    }
+  &__left-col {
+    display: grid;
+  }
+  &__right-col {
+  }
+  &__right-col_gray {
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    align-items: center;
+  }
 }
