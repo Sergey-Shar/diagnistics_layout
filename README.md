@@ -21,6 +21,9 @@
 - [Swipr.js](https://swiperjs.com/demos#pagination-custom)
 
 
+[!demo](Снимок экрана 2022-05-09 в 14.04.11.png)
+
+
 
 
 
