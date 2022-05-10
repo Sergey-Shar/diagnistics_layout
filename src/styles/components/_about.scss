@@ -1,30 +1,29 @@
 .about {
-  background: linear-gradient( to right, #fff 50%, rgb(245, 245, 245) 50%);
+  background: linear-gradient(to right, #fff 50%, rgb(245, 245, 245) 50%);
   width: 100%;
-  min-height: 449rem;
+  min-height: 49rem;
 
   &__description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 460rem;
-    min-height: 449rem;
-
+    width: 46rem;
+    min-height: 49rem;
   }
 
   &__title {
     font-weight: 800;
-    font-size: 32rem;
+    font-size: 3.2rem;
     line-height: 131%;
-    letter-spacing: -0.5rem;
-    margin-bottom: 50rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 5rem;
   }
 
   &__sub-title {
     font-weight: 600;
-    font-size: 18rem;
+    font-size: 1.8rem;
     line-height: 156%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #707070;
     opacity: 0.7;
   }
@@ -32,9 +31,9 @@
   &__image {
     position: absolute;
     top: 25%;
-    left: 560rem;
-    width: 300rem;
-    height: 294.89rem;
+    left: 56rem;
+    width: 30rem;
+    height: 29.4rem;
   }
 
   &__list {
@@ -42,15 +41,53 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    width:95%;
-    min-height: 449rem;
+    width: 95%;
+    min-height: 49rem;
   }
 
   &__list-title {
     position: relative;
     font-weight: 700;
-    font-size: 24rem;
+    font-size: 2.4rem;
     line-height: 142%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    &__image {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    &__image {
+      display: block;
+      top: 33%;
+      left: 33%;
+      width: 20rem;
+      height: 20rem;
+    }
+
+    &__description {
+      min-height: 29rem;
+      justify-content: flex-start;
+      margin-top: 3rem;
+    }
+    &__title {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    &__sub-title {
+      text-align: center;
+      opacity: 0.7;
+    }
+    &__list {
+      min-height: 29rem;
+    }
   }
 }

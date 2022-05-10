@@ -1,6 +1,6 @@
 .services {
   position: relative;
-  height: 753rem;
+  height: 75.3rem;
   background: linear-gradient(
       180deg,
       rgba(0, 78, 134, 0.8) 0%,
@@ -8,43 +8,47 @@
     ),
     url(../common/images/bg-header.jpg) 0 0 / cover no-repeat;
   background-attachment: fixed;
-  
+
   &__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 198rem;
+    height: 19.8rem;
   }
   &__header-title {
     font-weight: 700;
-    font-size: 20rem;
-    line-height: 16rem;
-    letter-spacing: 20rem;
+    font-size: 2rem;
+    line-height: 1.6rem;
+    letter-spacing: 2rem;
     text-transform: uppercase;
     color: #fee040;
-    margin-bottom: 20rem;
+    margin-bottom: 2rem;
   }
 
   &__header-sub-title {
     font-weight: 800;
-    font-size: 32rem;
+    font-size: 3.2rem;
     line-height: 131%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #ffffff;
   }
 
-  &__swiper{
+  &__swiper {
     width: 100%;
-    height:470rem;
+    height: 47rem;
+  }
+
+  &__swiper_mobile {
+    display: none;
   }
 
   &__card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 400rem;
-    height: 394rem;
+    width: 40rem;
+    height: 39.4rem;
   }
 
   &__card-img {
@@ -55,33 +59,63 @@
 
   &__card-title {
     flex: 1;
-    margin-top: 20rem;
+    margin-top: 2rem;
     font-weight: 800;
-    font-size: 24rem;
+    font-size: 2.4rem;
     line-height: 117%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #ffffff;
   }
 
   &__card-sub-title {
     flex: 2;
     font-weight: 600;
-    font-size: 16rem;
+    font-size: 1.6rem;
     line-height: 162%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #ffffff;
     opacity: 0.7;
   }
 
   &__card-link {
     font-weight: 700;
-    font-size: 20rem;
-    line-height: 16rem;
-    letter-spacing: 7rem;
+    font-size: 2rem;
+    line-height: 1.6rem;
+    letter-spacing: 7px;
     color: #fee040;
   }
 
   &__progress-scroll {
     background-color: #fee040;
+  }
+}
+
+@media (max-width: 992px) {
+  .services {
+    &__header-sub-title {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .services {
+    height: 65.3rem;
+    &__header-sub-title {
+      font-size: 2rem;
+      text-align: center;
+    }
+    &__swiper {
+      display: none;
+    }
+    &__swiper_mobile {
+      display: block;
+    }
+    &__card {
+      align-items: center;
+    }
+    &__card-sub-title {
+      text-align: center;
+    }
   }
 }

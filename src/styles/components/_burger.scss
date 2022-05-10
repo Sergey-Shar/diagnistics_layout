@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 40rem;
+  height: 4rem;
   cursor: pointer;
   &.active {
     position: relative;
   }
 
   &__line-top {
-    width: 40rem;
-    height: 2rem;
+    width: 4rem;
+    height: 2px;
     background-color: #fff;
     &.active {
       position: absolute;
@@ -26,18 +26,18 @@
     }
   }
   &__line-center--left {
-    width: 16rem;
-    height: 2rem;
+    width: 1.6rem;
+    height: 2px;
     background-color: #fee040;
   }
   &__line-center--right {
-    width: 16rem;
-    height: 2rem;
+    width: 1.6rem;
+    height: 2px;
     background-color: #fee040;
   }
   &__line-bottom {
-    width: 40rem;
-    height: 2rem;
+    width: 4rem;
+    height: 2px;
     background-color: #fff;
 
     &.active {

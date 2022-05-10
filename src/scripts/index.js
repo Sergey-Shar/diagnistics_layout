@@ -14,6 +14,18 @@ const swiper = new Swiper(".services__swiper", {
   },
 });
 
+const swiperServicesMobile = new Swiper(".services__swiper_mobile", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  speed: 500,
+  slideToClikedSlide: true,
+  grabCursor: true,
+  touchRatio: 5,
+  mousewheel: {
+    invert: true,
+  },
+});
+
 const swiperFirstStep = new Swiper(".step-first__swiper", {
   grabCursor: true,
   touchRatio: 5,
@@ -50,6 +62,24 @@ const swiperSecondStep = new Swiper(".step-second__swiper", {
     invert: true,
   },
 });
+
+const swiperSecondStepMobile = new Swiper(".step-second__swiper_mobile ", {
+  grabCursor: true,
+  touchRatio: 5,
+  slidesPerView:1,
+  spaceBetween: 30,
+  keyboard: {
+    enabled: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  mousewheel: {
+    invert: true,
+  },
+});
+
 
 const swiperTeam = new Swiper('.team__swiper',{
   slidesPerView: 5,

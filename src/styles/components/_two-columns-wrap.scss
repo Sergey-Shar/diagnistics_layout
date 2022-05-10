@@ -1,16 +1,25 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   min-height: 100%;
 
-  &__left-col{
-  width:50%;
+  &__left-col {
+    width: 50%;
   }
 
-  &__right-col{
-    width:50%;
+  &__right-col {
+    width: 50%;
   }
 }
 
-
+@media (max-width: 767px) {
+  .two-columns {
+    flex-wrap: wrap;
+    &__left-col {
+      width: 100%;
+    }
+    &__right-col {
+      width: 100%;
+    }
+  }
+}

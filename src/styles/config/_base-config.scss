@@ -1,7 +1,15 @@
 html {
-  font-size: 1px;
+  font-size: 10px;
 }
 
-p {
-  font-size: 16rem;
+@media (max-width:992px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width:767px) {
+  html {
+    font-size: 6.5px;
+  }
 }

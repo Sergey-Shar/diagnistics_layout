@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 31rem;
+  min-height: 3.1rem;
 
   &__text {
     color: rgb(148, 148, 148);
     font-weight: 600;
-    font-size: 12rem;
-    line-height: 12rem;
-    letter-spacing: -0.5rem;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.5px;
   }
 
   &__address {
     color: rgb(254, 224, 63);
     font-weight: 600;
-    font-size: 14rem;
-    line-height: 12rem;
+    font-size: 14px;
+    line-height: 1.2rem;
   }
   &__address-black {
     color: black;

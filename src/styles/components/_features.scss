@@ -1,20 +1,19 @@
 .features {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   width:80%;
   
   &__block {
     display: flex;
     align-items: center;
-    gap: 20rem;
-    width: 300rem;
+    gap: 2.0rem;
+    width: 30rem;
   }
   &__discription {
     font-weight: 700;
-    font-size: 20rem;
-    line-height: 28rem;
-    letter-spacing: -0.5rem;
+    font-size: 2.0rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.5px;
     color: #ffffff;
   }
 }

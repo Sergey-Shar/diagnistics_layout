@@ -1,24 +1,38 @@
 .description {
-  height: 209rem;
-  width: 580rem;
+  min-height: 20.9rem;
+  width: 58rem;
+
   &__title-wpap {
-    width: 580rem;
-    margin-bottom: 38rem;
+    width: 58rem;
+    margin-bottom: 3.8rem;
   }
   &__title {
     color: #fff;
     font-weight: 800;
-    font-size: 42rem;
-    line-height: 51rem;
-    letter-spacing: -0.5rem;
+    font-size: 4.2rem;
+    line-height: 5.1rem;
+    letter-spacing: -0.5px;
   }
   &__sub-title-wrap {
-    width: 363rem;
+    width: 36.3rem;
   }
   &__sub-title {
     color: rgb(148, 148, 148);
     font-weight: 600;
-    font-size: 20rem;
-    line-height: 34rem;
+    font-size: 2rem;
+    line-height: 3.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__title {
+      font-size: 3rem;
+    }
   }
 }
