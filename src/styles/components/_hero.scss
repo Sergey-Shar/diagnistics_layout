@@ -1,29 +1,34 @@
 .hero {
-  display: grid;
-  grid-template-columns: repeat(2, 57% 43%);
-  grid-template-areas:
-    "leftBlock rightBlock "
-    "leftBlock rightBlock "
-    "footer footer";
-  height: 688rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 688rem;
+  width: 100%;
+
+  &__main{
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+    width: 100%;
+  }
 
   &__left-block {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
-    grid-area: leftBlock;
   }
   &__right-block {
-    display: grid;
+    display:flex;
     align-items: center;
     justify-content: center;
-    grid-area: rightBlock;
+ 
   }
   &__footer {
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items:center;
-    grid-area: footer;
+    min-height: 228rem;
+    width: 100%;
   }
 }

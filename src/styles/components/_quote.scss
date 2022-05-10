@@ -110,7 +110,12 @@
 
   &__signature-icon {
     position: absolute;
-    left: 45%;
+    left: 50%;
     bottom: 5%;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
   }
 }

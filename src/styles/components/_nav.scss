@@ -1,22 +1,20 @@
 .nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 80rem;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80rem;
   &__logo-block {
-    display: grid;
-    gap: 80rem;
-    grid-template-columns: 40rem 1fr;
-    justify-content: start;
+    display: flex;
+    justify-content:space-between;
     align-items: center;
     height: 100%;
+    min-width: 22%;
   }
   &__email-block {
-    display: grid;
-    gap: 141rem;
-    grid-template-columns: 131rem 188rem;
-    justify-content: end;
+    display: flex;
+    justify-content:space-between;
     align-items: center;
     height: 100%;
+    min-width: 32%;
   }
 }
