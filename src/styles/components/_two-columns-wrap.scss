@@ -1,16 +1,16 @@
 .two-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   min-height: 100%;
 
-  &__left-col {
-    display: grid;
+  &__left-col{
+  width:50%;
   }
-  &__right-col {
-  }
-  &__right-col_gray {
-    background-color: rgb(245, 245, 245);
-    display: grid;
-    align-items: center;
+
+  &__right-col{
+    width:50%;
   }
 }
+
+

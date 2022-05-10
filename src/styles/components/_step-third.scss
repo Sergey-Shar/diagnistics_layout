@@ -1,5 +1,5 @@
 .step-third {
-  height: 512rem;
+  min-height: 512rem;
   background: rgb(245, 245, 245);
 
   &__description {
@@ -23,6 +23,6 @@
   }
   &__image {
     width: 100%;
-    height: 512rem;
+    max-height: 512rem;
   }
 }

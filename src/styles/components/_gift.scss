@@ -1,7 +1,7 @@
 .gift {
   display: flex;
+  min-height: 408rem;
   align-items: center;
-  height: 408rem;
   background: linear-gradient(
       180deg,
       rgba(0, 78, 134, 0.8) 0%,
@@ -12,18 +12,21 @@
 
   &__container {
     display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
-    height: 168rem;
+    min-height: 168rem;
     width: 100%;
   }
   &__title {
-    width: 350rem;
+    width: 460rem;
     font-weight: 800;
     font-size: 32rem;
     line-height: 131%;
     letter-spacing: -0.5rem;
+    height: 100%;
     color: #ffffff;
-
+   
     &_yelow {
       color: rgb(254, 224, 63);
     }
@@ -31,6 +34,7 @@
 
   &__sub-title-wrapper {
     width: 460rem;
+   
   }
 
   &__sub-title {

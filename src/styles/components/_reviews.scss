@@ -6,7 +6,7 @@
     align-items: center;
     height: 360rem;
     gap: 28rem;
-    height: 352rem;
+    min-height: 352rem;
   }
 
   &__header-title {
@@ -36,11 +36,9 @@
   }
 
   &__main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: start;
-    gap: 60rem;
-    padding: 0 15rem 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 40rem;
   }
 
@@ -77,6 +75,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 199rem;
+    min-height: 199rem;
   }
 }
