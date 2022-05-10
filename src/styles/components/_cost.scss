@@ -1,5 +1,5 @@
 .cost {
-  height: 446rem;
+  height: 44.6rem;
   background: linear-gradient(
       180deg,
       rgba(0, 78, 134, 0.8) 0%,
@@ -13,15 +13,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 446rem;
-    gap: 28rem;
+    height: 44.6rem;
+    gap: 2.8rem;
   }
   &__title {
     font-weight: 800;
-    font-size: 32rem;
+    font-size: 3.2rem;
     line-height: 131%;
     text-align: center;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #fff;
   }
   &__title-yelow {
@@ -29,10 +29,10 @@
   }
   &__sub-title {
     font-weight: 600;
-    font-size: 18rem;
+    font-size: 1.8rem;
     line-height: 156%;
     text-align: center;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #ffffff;
   }
 }

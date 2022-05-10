@@ -1,11 +1,11 @@
 .main-button {
   position: relative;
   background-color: #fee040;
-  padding: 29rem 57rem 26rem 57rem;
+  padding: 2.9rem 5.7rem 2.6rem 5.7rem;
   font-weight: 800;
-  font-size: 12rem;
-  line-height: 15rem;
-  letter-spacing: 0.5rem;
+  font-size: 12px;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   transition: 0.5s;
   &:hover {
@@ -17,5 +17,16 @@
   &__icon {
     position: absolute;
     left: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-button {
+    padding: 2rem 5rem 2rem 5rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    &__icon {
+      display: none;
+    }
   }
 }

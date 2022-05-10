@@ -1,61 +1,60 @@
 .team {
   position: relative;
-  min-height: 638rem;
+  min-height: 63.8rem;
 
   &__left-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20rem;
-    min-height: 638rem;
+    gap: 2rem;
+    min-height: 63.8rem;
   }
 
   &__right-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 49rem;
+    gap: 4.9rem;
   }
 
   &__description {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 250rem;
+    height: 25rem;
   }
 
   &__description-title {
     font-weight: 800;
-    font-size: 32rem;
+    font-size: 3.2rem;
     line-height: 131%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #151515;
   }
 
   &__description-sub-title {
-    margin-bottom: 20rem;
+    margin-bottom: 2rem;
     font-weight: 600;
-    font-size: 18rem;
+    font-size: 1.8rem;
     line-height: 156%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #707070;
-    width: 700rem;
-
+    width: 70rem;
     &_bold {
       font-weight: 900;
-      font-size: 20rem;
+      font-size: 2rem;
       color: #151515;
     }
   }
 
   &__swiper {
-    height: 185rem;
-    width: 710rem;
+    height: 18.5rem;
+    width: 71rem;
   }
 
   &__card-img {
-    height: 185rem;
-    width: 132rem;
+    height: 18.5rem;
+    width: 13.2rem;
     cursor: pointer;
     &:hover {
       opacity: 0.5;
@@ -64,10 +63,53 @@
 
   &__btn-next,
   &__btn-prev {
-    height: 60rem;
-    width: 60rem;
+    height: 6rem;
+    width: 6rem;
     border-radius: 50%;
     background-color: #fee040;
     color: black;
   }
+}
+
+
+@media (max-width: 992px) {
+ .team{
+  &__left-col {
+    width: 10%;
+    min-height: 63.8rem;
+  }
+  &__right-col {
+   flex: 1;
+  }
+  &__swiper {
+    width:100%;
+  }
+ }
+}
+
+@media (max-width: 767px) {
+  .team{
+    min-height: 53.8rem;
+    &__left-col {
+     display: none;
+    }
+    &__description {
+    text-align: center;
+    margin-top: 3rem;
+    }
+    &__description-sub-title {
+      margin-bottom: 0rem;
+      font-weight: 300;
+      font-size: 1.5rem;
+      line-height: 156%;
+      letter-spacing: -0.5px;
+      color: #707070;
+      width: 45rem;
+     
+    
+    }
+    &__swiper {
+      width:100%;
+    }
+   }
 }

@@ -2,19 +2,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 80rem;
+  min-height: 8rem;
+
   &__logo-block {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    gap: 3rem;
     align-items: center;
     height: 100%;
     min-width: 22%;
   }
   &__email-block {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    gap: 3rem;
     align-items: center;
     height: 100%;
     min-width: 32%;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav__logo-block {
+    width: 100%;
+  }
+  .nav__email-block {
+    display: none;
   }
 }
