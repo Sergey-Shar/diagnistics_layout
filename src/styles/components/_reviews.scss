@@ -4,42 +4,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 360rem;
-    gap: 28rem;
-    min-height: 352rem;
+    min-height: 36rem;
+    gap: 2.8rem;
+    height: 35.2rem;
   }
 
   &__header-title {
     font-weight: 700;
-    font-size: 20rem;
-    line-height: 16rem;
-    letter-spacing: 20rem;
+    font-size: 2rem;
+    line-height: 1.6rem;
+    letter-spacing: 2rem;
     text-transform: uppercase;
     color: #2f80ed;
   }
 
   &__header-sub-title {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 131%;
     letter-spacing: -0.5px;
     color: #151515;
   }
   &__header-description {
     font-weight: 600;
-    font-size: 18rem;
+    font-size: 1.8rem;
     line-height: 156%;
     text-align: center;
     letter-spacing: -0.5px;
     color: #707070;
-    width: 900rem;
+    width: 90rem;
   }
 
   &__main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 40rem;
+    margin-bottom: 4rem;
   }
 
   &__card {
@@ -48,33 +48,54 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 509rem;
+    height: 50.9rem;
   }
 
   &__card-icon {
     position: absolute;
-    left: -50rem;
-    top: -50rem;
+    left: -5rem;
+    top: -5rem;
   }
 
   &__card-img {
-    width: 300px;
+    width: 30rem;
   }
 
   &__card-customer {
     font-weight: 700;
-    font-size: 16rem;
+    font-size: 1.6rem;
     line-height: 162%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #151515;
     opacity: 0.7;
-    border-radius: 2rem;
+    border-radius: 2px;
   }
 
   &__footer {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 199rem;
+    min-height: 19.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews {
+    &__header {
+      gap: 1.8rem;
+      min-height: 25rem;
+      text-align: center;
+    }
+    &__header-description {
+      font-size: 1.8rem;
+      text-align: center;
+      width: 45rem;
+    }
+    &__card-img {
+      width: 80%;
+    }
+    &__card {
+      margin: 5rem 0 5rem 0;
+    }
   }
 }

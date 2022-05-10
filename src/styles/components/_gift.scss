@@ -1,6 +1,6 @@
 .gift {
   display: flex;
-  min-height: 408rem;
+  min-height: 40.8rem;
   align-items: center;
   background: linear-gradient(
       180deg,
@@ -13,17 +13,16 @@
   &__container {
     display: flex;
     align-items:flex-start;
-    flex-wrap: wrap;
     justify-content: space-between;
-    min-height: 168rem;
+    min-height: 16.8rem;
     width: 100%;
   }
   &__title {
-    width: 460rem;
+    width: 46rem;
     font-weight: 800;
-    font-size: 32rem;
+    font-size: 3.2rem;
     line-height: 131%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     height: 100%;
     color: #ffffff;
    
@@ -33,16 +32,27 @@
   }
 
   &__sub-title-wrapper {
-    width: 460rem;
+    width: 46rem;
    
   }
 
   &__sub-title {
-    margin-bottom: 20rem;
+    margin-bottom: 2rem;
     font-weight: 600;
-    font-size: 18rem;
+    font-size: 1.8rem;
     line-height: 156%;
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5px;
     color: #ffffff;
+  }
+}
+
+@media (max-width: 767px) {
+  .gift{
+    &__container {
+      text-align: center;
+      padding-top: 2rem;
+      justify-content:center;
+      flex-wrap: wrap;
+    }
   }
 }
