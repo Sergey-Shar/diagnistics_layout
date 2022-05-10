@@ -1,8 +1,9 @@
 .features {
   display: flex;
-  width: 1200rem;
-  gap: 130rem;
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:80%;
+  
   &__block {
     display: flex;
     align-items: center;
